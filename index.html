@@ -1,74 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-     <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio - Racky Thiam</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header class="bg-white shadow-md fixed w-full z-50">
-    <nav class="container mx-auto flex justify-between items-center p-4">
-      <h1 class="text-xl font-bold">Racky</h1>
-      <ul class="hidden md:flex gap-6">
-        <li><a href="#home" class="hover:text-blue-600">Accueil</a></li>
-        <li><a href="#about" class="hover:text-blue-600">À propos</a></li>
-        <li><a href="#skills" class="hover:text-blue-600">Compétences</a></li>
-         <li><a href="#projects" class="hover:text-blue-600">Projets</a></li>
-        <li><a href="#contact" class="hover:text-blue-600">Contacts</a></li>
-      </ul> 
-    </nav>
-  </header>
-  <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-black via-[#0f1720] to-black text-white px-6 text-center">
 
+<body class="bg-[#0f1720]">
+
+<!-- ===== HEADER ===== -->
+<header class="bg-white shadow-md fixed w-full z-50">
+  <nav class="container mx-auto flex justify-between items-center p-4">
+    <h1 class="text-xl font-bold">Racky</h1>
+    <ul class="hidden md:flex gap-6">
+      <li><a href="#home" class="hover:text-blue-600">Accueil</a></li>
+      <li><a href="#about" class="hover:text-blue-600">À propos</a></li>
+      <li><a href="#formation" class="hover:text-blue-600">Formation</a></li>
+      <li><a href="#experience" class="hover:text-blue-600">Expériences</a></li>
+      <li><a href="#skills" class="hover:text-blue-600">Compétences</a></li>
+      <li><a href="#projects" class="hover:text-blue-600">Projets</a></li>
+      <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ===== HERO ===== -->
+<section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-black via-[#0f1720] to-black text-white px-6 text-center">
   <div class="max-w-3xl">
-
-    <!-- Petit texte -->
-    <p class="text-lg text-gray-300 mb-2">Bonjour , je suis</p>
-
-    <!-- Nom -->
-    <h1 class="text-4xl md:text-6xl font-extrabold mb-4">
-      <span class="text-white">RACKY THIAM</span>
-    </h1>
-
-    <!-- Métier -->
-    <h2 class="text-2xl md:text-3xl mb-6">
-      Futur Développeur web <span class="text-green-400 font-semibold">Web</span>
-    </h2>
-
-    <!-- Description -->
+    <p class="text-lg text-gray-300 mb-2">Bonjour, je suis</p>
+    <h1 class="text-4xl md:text-6xl font-extrabold mb-4">RACKY THIAM</h1>
+    <h2 class="text-2xl md:text-3xl mb-6">Ingénieure en Développement Web</h2>
     <p class="text-gray-400 mb-10 leading-relaxed">
-       Passionnée par le développement web , par la création de sites <br> et d’applications web modernes et performants
+      Passionnée par le développement web et la création de sites modernes, performants et centrés utilisateur.
     </p>
 
-    <!-- Boutons -->
-    <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10">
-      <a href="#contact" class="bg-green-400 text-black px-8 py-3 rounded-xl font-semibold hover:scale-105 transition">
-        M’embaucher
-      </a>
-      <a href="#projects" class="border border-green-400 text-green-400 px-8 py-3 rounded-xl font-semibold hover:bg-green-400 hover:text-black transition">
-        Voir mes projets
-      </a>
+    <div class="flex justify-center mt-10">
+      <div class="p-2 rounded-full bg-gradient-to-r from-green-400 to-blue-500">
+        <img src="maphoto.jpeg" alt="Photo de profil"
+             class="w-48 h-48 rounded-full object-cover border-4 border-[#0f1720]">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== A PROPOS ===== -->
+<section id="about" class="text-white py-16 px-6">
+  <div class="max-w-3xl mx-auto">
+    <h2 class="text-3xl md:text-4xl font-semibold mb-6">À propos</h2>
+    <p class="text-gray-400 leading-relaxed">
+     Ingénieure en développement web, je suis passionnée par la création de solutions numériques modernes, performantes et centrées sur l’utilisateur. J’aime transformer des idées en applications web concrètes, fonctionnelles et esthétiques.
+
+Grâce à ma maîtrise du développement front-end et back-end, je suis capable de concevoir un projet dans sa globalité, de l’interface utilisateur jusqu’à la gestion des données. J’accorde une grande importance à la qualité du code, à l’optimisation des performances et à l’accessibilité des interfaces.
+
+Curieuse, rigoureuse et toujours en quête d’amélioration, je continue à développer mes compétences à travers de nouveaux défis et projets. Mon objectif est de concevoir des expériences digitales utiles, intuitives et innovantes.
+    </p>
+  </div>
+</section>
+
+<!-- ===== FORMATION ===== -->
+<section id="formation" class="text-white py-20 border-t border-gray-800">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Formation</h2>
+
+    <div class="bg-[#1a2433] p-8 rounded-xl shadow-lg border border-gray-700">
+      <h3 class="text-xl font-semibold text-green-400 mb-2">
+        Génie Informatique
+      </h3>
+      <p class="text-gray-400 mb-4">Univers Professionnel</p>
+      <ul class="list-disc list-inside text-gray-300 space-y-1">
+        <li>Développement Front-End et Back-End</li>
+        <li>Bases de données et modélisation</li>
+        <li>Programmation orientée objet</li>
+        <li>Réseaux informatiques</li>
+        <li>Génie logiciel</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section id="experience" class="bg-[#0f1720] text-white py-20 border-t border-gray-800">
+  <div class="max-w-5xl mx-auto px-6 space-y-10">
+    <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Expériences Professionnelles</h2>
+
+    <div class="bg-[#1a2433] p-8 rounded-xl shadow-lg border border-gray-700">
+      <h3 class="text-xl font-semibold text-green-400 mb-2">Développeuse Web Stagiaire</h3>
+      <p class="text-gray-400 mb-4">Entreprise TGI</p>
+      <ul class="list-disc list-inside text-gray-300 space-y-1">
+        <li>Développement d’interfaces web modernes</li>
+        <li>Connexion aux bases de données</li>
+        <li>Participation aux projets d’équipe</li>
+      </ul>
     </div>
 
+    <div class="bg-[#1a2433] p-8 rounded-xl shadow-lg border border-gray-700">
+      <h3 class="text-xl font-semibold text-green-400 mb-2">Projet Personnel Full Stack</h3>
+      <ul class="list-disc list-inside text-gray-300 space-y-1">
+        <li>Création d’une application web dynamique</li>
+        <li>Développement front-end et back-end</li>
+        <li>Gestion de base de données</li>
+      </ul>
+    </div>
   </div>
 </section>
-<section id="about" class="bg-[#0f1720] text-white py-16 px-6">
-  <div class="max-w-3xl mx-auto">
 
-    <!-- Titre -->
-    <h2 class="text-3xl md:text-4xl font-semibold mb-6">Futur Développeur web</h2>
-
-    <!-- Description -->
-    <p class="text-gray-400 mb-6">
-      Je suis un futur développeur web avec de l'expérience en <span class="text-green-400">HTML</span>, 
-      <span class="text-green-400">CSS</span>  <span class="text-green-400">Node.js</span> <span class="text-green-400">Java Script</span> <span class="text-green-400">Type Script</span>. 
-      j’apprends actuellement les frameworks les plus récents pour devenir un développeur full-stack compétent.
- Curieuse, motivée et rigoureuse, mon objectif est de devenir une experte du développement web tout en contribuant à des projets innovants et utiles.
-    </p>
-  </div>
-</section>
-<section class="py-20 bg-gradient-to-b from-[#0b0f19] to-[#05070d] text-white">
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="py-20 bg-gradient-to-b from-[#0b0f19] to-[#05070d] text-white">
   <div class="max-w-6xl mx-auto px-6 text-center">
     
     <!-- Badge -->
@@ -146,9 +184,12 @@
       </div>
     </div>
   </div>
+
+  
 </section>
 
-    <section class="py-20 bg-gradient-to-b from-[#05070d] to-[#0b0f19] text-white">
+<!-- ===== PROJECTS ===== -->
+<section id="projects" class="py-20 bg-gradient-to-b from-[#05070d] to-[#0b0f19] text-white">
   <div class="max-w-6xl mx-auto px-6 space-y-16">
     <div class="bg-[#0f1624] rounded-3xl overflow-hidden border border-emerald-500/20 shadow-lg hover:shadow-emerald-500/10 transition">
 
@@ -201,10 +242,12 @@
 
     </div>
     </div>
+
 </section>
 
-<section class="bg-[#0f1720] text-white py-16 px-6">
-  <div class="max-w-4xl mx-auto text-center">
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="bg-[#0f1720] text-white py-20 px-6 border-t border-gray-800">
+    <div class="max-w-4xl mx-auto text-center">
 
     <!-- Bouton Get in touch -->
     <div class="mb-6">
@@ -242,21 +285,37 @@
     <!-- Réseaux sociaux -->
     <h3 class="text-2xl font-semibold mb-6">Connectez moi sur</h3>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-      <a href="www.tiktok.com/@racky_thm" class="flex items-center justify-center gap-3 bg-[#1a1f2b] p-4 rounded-xl border border-gray-800 hover:border-green-400 transition">
-        Tiktok
-      </a>
-      <a href="https://snapchat.com/t/AAN81dJi" class="flex items-center justify-center gap-3 bg-[#1a1f2b] p-4 rounded-xl border border-gray-800 hover:border-green-400 transition">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+
+    <!-- TikTok -->
+    <a href="https://www.tiktok.com/@racky_thm?_r=1&_t=ZS-93myLIAoDqb" target="_blank"
+       class="flex items-center justify-center gap-3 bg-[#111827] hover:bg-black text-white py-3 rounded-xl transition">
+        <i class="fab fa-tiktok text-xl"></i>
+        TikTok
+    </a>
+
+    <!-- Snapchat -->
+    <a href="https://snapchat.com/t/AAN81dJi" target="_blank"
+       class="flex items-center justify-center gap-3 bg-yellow-400 hover:bg-yellow-300 text-black py-3 rounded-xl transition">
+        <i class="fab fa-snapchat text-xl"></i>
         Snapchat
-      </a>
-    
-      <a href="https://www.instagram.com/racky_thm?igsh=bnd5MDl1NG5wYTdm&utm_source=qr" class="flex items-center justify-center gap-3 bg-[#1a1f2b] p-4 rounded-xl border border-gray-800 hover:border-green-400 transition">
-         Instagram
-      </a>
-      <a href="https://github.com/rthiam448-droid/test1_coursgit" class="flex items-center justify-center gap-3 bg-[#1a1f2b] p-4 rounded-xl border border-gray-800 hover:border-green-400 transition">
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/racky_thm?igsh=bnd5MDl1NG5wYTdm&utm_source=qr" target="_blank"
+       class="flex items-center justify-center gap-3 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white py-3 rounded-xl transition">
+        <i class="fab fa-instagram text-xl"></i>
+        Instagram
+    </a>
+
+    <!-- GitHub -->
+    <a href="https://github.com/rthiam448-droid/test1_coursgit" target="_blank"
+       class="flex items-center justify-center gap-3 border border-green-400 text-green-400 hover:bg-green-400 hover:text-black py-3 rounded-xl transition">
+        <i class="fab fa-github text-xl"></i>
         GitHub
-      </a>
-    </div>
+    </a>
+
+</div>
 
   </div>
 </section>
@@ -299,6 +358,44 @@
       ENVOYER LE MESSAGE
     </button>
   </form>
+
+  </div>
 </section>
+<footer class="bg-[#0f172a] text-gray-300 mt-16 border-t border-gray-700">
+    <div class="max-w-6xl mx-auto px-6 py-10">
+
+        <!-- Réseaux sociaux -->
+        <div class="flex justify-center gap-6 mb-6 text-2xl">
+
+            <a href="https://github.com/tonprofil" target="_blank" class="hover:text-white transition">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://instagram.com/tonprofil" target="_blank" class="hover:text-pink-500 transition">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://tiktok.com/@tonprofil" target="_blank" class="hover:text-white transition">
+                <i class="fab fa-tiktok"></i>
+            </a>
+
+            <a href="https://snapchat.com/add/tonprofil" target="_blank" class="hover:text-yellow-400 transition">
+                <i class="fab fa-snapchat"></i>
+            </a>
+
+        </div>
+
+        <!-- Ligne séparatrice -->
+        <div class="border-t border-gray-700 my-6"></div>
+
+        <!-- Copyright -->
+        <p class="text-center text-sm">
+            © 2026 Racky Thiam. Tous droits réservés.
+        </p>
+
+       
+
+    </div>
+</footer>
 </body>
 </html>
